@@ -6,7 +6,8 @@
 ## Main features:
 - Ask for the teenagers' interested careers and skills needed
 - Suggest succesful people and groups on those careers and skills so the teenagers can follow and have a 'better' Newsfeed
-- And most amazingly, it acts as a personal trainers to push the teenagers to improve their skills daily by short courses delivered by both the mobile app and directly on Facebook Messenger
+- *And most amazingly, it acts as a personal trainers to push the teenagers to improve their skills daily by short courses* delivered by both the mobile app and *directly on Facebook Messenger*
+- Demo Videos: https://www.youtube.com/playlist?list=PLezPbdmSvoxTGnVzbpBlzubWgGpMEi5JZ
 
 ## Technology used
 - Android
