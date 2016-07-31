@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="xam">#aab0b0</color>
+    <color name="xanh_duong">#69c7e3</color>
+    <color name="do_tuoi">#f4511e</color>
+    <color name="da_cam">#ffc107</color>
+    <color name="xanh_toi">#193f65</color>
+    <color name="xanh_duong_dam">#0f7dc1</color>
+    <color name="xanh_tuoi">#77cca5</color>
+    <color name="xanh_dam">#33691e</color>
+    <color name="level_open">#66bb6a</color>
+    <color name="level_lock">#f78465</color>
+    <color name="color_board_level_behind">#ef5f33</color>
+    <color name="color_board_level">#3d5457</color>
+    <color name="color_board_level_2">#1f2b2c</color>
+    <color name="best_score_text">#ffcf71</color>
+
+
+    <!-- Score board color -->
+    <color name="stroke_score_board">#f17a5a</color>
+    <color name="bg_score_board">#4b9a79</color>
+    <color name="bg_score_board_2">#34474a</color>
+    <color name="level_text_color">#fcfe4b</color>
+
+
+
+</resources>

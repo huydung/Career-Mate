@@ -1,0 +1,514 @@
+{
+    "english_beginner":{
+        "name": "English for Beginner",
+        "estimated": 20,
+        "thumbnail": "/courses/english_beginner/thumbnail.jpg",
+        "skills": {
+            "1" : {
+                "key": "english",
+                "name": "English"
+            }
+        },
+        "lessons": {            
+            "1": {
+                "name": "Numbers",
+                "cards":{
+                    "1": {
+                        "type": "video",
+                        "presentation": "video",
+                        "content": "",
+                        "source_url": "/courses/english_beginner/Numbers.mp4", 
+                        "options": {},
+                        "answer": ""                        
+                    }, 
+	                "2": {
+                        "type": "quiz",
+                        "presentation": "buttons",
+                        "content": "How do you say 5?",
+                        "source_url":"",
+                        "answer": "five",
+                        "options": {
+                            "one": "One", 
+                            "five": "Five", 
+                            "eight": "Eight"                        
+                        }
+                    },
+                    "3": {
+                        "type": "quiz",
+                        "presentation": "buttons",
+                        "answer": "one",
+                        "content": "How many head do you have?",
+                        "source_url":"",
+                        "options": {
+                            "one": "One", 
+                            "five": "Six", 
+                            "eight": "Three"                        
+                        }
+                    },
+                    "4": {
+                        "type": "text",
+                        "presentation": "text",
+                        "source_url":"",
+                        "content": "So here are the numbers we learn today: 1- one, 2 - two, 3 - three, 4 - four, 5 - five, 6 - six, 7 - seven, 8 - eight, 9 - nine, 10 - ten",
+                        "options": {},
+                        "answer": ""                        
+                    },    
+                    "5": {
+                        "type": "quiz",
+                        "presentation": "freetext",
+                        "answer": "one two three four five",
+                        "source_url":"",
+                        "content": "Let's write the numbers from 1 to 5 in English, separated by space!",
+                        "options": {
+                            "one": "One", 
+                            "five": "Six", 
+                            "eight": "Three"                        
+                        }
+                    }
+                }
+            },
+            "2" : {
+                "name": "Fruits & Vegetables",
+                "cards":{
+                    "1": {
+                        "type": "video",
+                        "presentation": "video",
+                        "source_url":"/courses/english_beginner/Fruits.mp4",
+                        "content": "",
+                        "options": {},
+                        "answer": ""                        
+                    }, 
+	                "2": {
+                        "type": "quiz",
+                        "presentation": "generic",
+                        "source_url":"/courses/english_beginner/quiz1.jpg",
+                        "content": "This is a ____?",
+                        "answer": "Broccoli",
+                        "options": {
+                            "orange": "Orange",
+                            "lemon": "Lemon",
+                            "broccoli": "Broccoli"
+                        }
+                    },
+                    "3": {
+                        "type": "quiz",
+                        "presentation": "generic",
+                        "source_url":"/courses/english_beginner/quiz2.jpg",
+                        "answer": "Potato",
+                        "content": "This is a ____?",
+                        "options": {
+                            "one": "Grape", 
+                            "five": "Potato", 
+                            "eight": "Cabbage"                        
+                        }
+                    }                
+                }
+            },
+            "3" : {
+                "name": "Body Parts",
+                "cards":{
+                    "1": {
+                        "type": "video",
+                        "presentation": "video",
+                        "source_url":"/courses/english_beginner/BodyParts.mp4",
+                        "content": "",
+                        "options": {},
+                        "answer": ""                        
+                    }, 
+	                "2": {
+                        "type": "quiz",
+                        "presentation": "text",
+                        "source_url":"",
+                        "content": "Rewrite this list in order, from top to bottom: shoulder head legs stomach.",
+                        "answer": "head shoulder stomach legs",
+                        "options": {}
+                    }                                   
+                }
+            }
+        }
+    },
+    "english_inter":{
+        "name": "Intermediate English",
+        "estimated": 40,
+        "thumbnail": "/courses/english_inter/thumbnail.jpg",
+        "skills": {
+            "1" : {
+                "key": "english",
+                "name": "English"
+            }
+        },
+        "lessons": {            
+            "1": {
+                "name": "Numbers",
+                "cards":{
+                    "1": {
+                        "type": "video",
+                        "presentation": "video",
+                        "content": "",
+                        "source_url": "/courses/english_beginner/Numbers.mp4", 
+                        "options": {},
+                        "answer": ""                        
+                    }, 
+	                "2": {
+                        "type": "quiz",
+                        "presentation": "buttons",
+                        "content": "How do you say 5?",
+                        "source_url":"",
+                        "answer": "five",
+                        "options": {
+                            "one": "One", 
+                            "five": "Five", 
+                            "eight": "Eight"                        
+                        }
+                    },
+                    "3": {
+                        "type": "quiz",
+                        "presentation": "buttons",
+                        "answer": "one",
+                        "content": "How many head do you have?",
+                        "source_url":"",
+                        "options": {
+                            "one": "One", 
+                            "five": "Six", 
+                            "eight": "Three"                        
+                        }
+                    },
+                    "4": {
+                        "type": "text",
+                        "presentation": "video",
+                        "source_url":"",
+                        "content": "So here are the numbers we learn today: 1- one, 2 - two, 3 - three, 4 - four, 5 - five, 6 - six, 7 - seven, 8 - eight, 9 - nine, 10 - ten",
+                        "options": {},
+                        "answer": ""                        
+                    },    
+                    "5": {
+                        "type": "quiz",
+                        "presentation": "freetext",
+                        "answer": "one two three four five",
+                        "source_url":"",
+                        "content": "Let's write the numbers from 1 to 5 in English, separated by space!",
+                        "options": {
+                            "one": "One", 
+                            "five": "Six", 
+                            "eight": "Three"                        
+                        }
+                    }
+                }
+            },
+            "2" : {
+                "name": "Fruits & Vegetables",
+                "cards":{
+                    "1": {
+                        "type": "video",
+                        "presentation": "video",
+                        "source_url":"/courses/english_beginner/Fruits.mp4",
+                        "content": "",
+                        "options": {},
+                        "answer": ""                        
+                    }, 
+	                "2": {
+                        "type": "quiz",
+                        "presentation": "generic",
+                        "source_url":"/courses/english_beginner/quiz1.jpg",
+                        "content": "This is a ____?",
+                        "answer": "Potato",
+                        "options": {
+                            "orange": "Orange",
+                            "lemon": "Lemon",
+                            "broccoli": "Broccoli"
+                        }
+                    },
+                    "3": {
+                        "type": "quiz",
+                        "presentation": "generic",
+                        "source_url":"/courses/english_beginner/quiz2.jpg",
+                        "answer": "Potato",
+                        "content": "This is a ____?",
+                        "options": {
+                            "one": "Grape", 
+                            "five": "Potato", 
+                            "eight": "Cabbage"                        
+                        }
+                    }                
+                }
+            },
+            "3" : {
+                "name": "Body Parts",
+                "cards":{
+                    "1": {
+                        "type": "video",
+                        "presentation": "video",
+                        "source_url":"/courses/english_beginner/BodyParts.mp4",
+                        "content": "",
+                        "options": {},
+                        "answer": ""                        
+                    }, 
+	                "2": {
+                        "type": "quiz",
+                        "presentation": "text",
+                        "source_url":"",
+                        "content": "Rewrite this list in order, from top to bottom: shoulder head legs stomach.",
+                        "answer": "head shoulder stomach legs",
+                        "options": {}
+                    }                                   
+                }
+            }
+        }
+    },
+    "programming_js":{
+        "name": "Programming Javascript",
+        "estimated": 600,
+        "thumbnail": "/courses/programming_js/thumbnail.jpg",
+        "skills": {
+            "1" : {
+                "key": "programming",
+                "name": "Programming"
+            }
+        },
+        "lessons": {            
+            "1": {
+                "name": "Numbers",
+                "cards":{
+                    "1": {
+                        "type": "video",
+                        "presentation": "video",
+                        "content": "",
+                        "source_url": "/courses/english_beginner/Numbers.mp4", 
+                        "options": {},
+                        "answer": ""                        
+                    }, 
+	                "2": {
+                        "type": "quiz",
+                        "presentation": "buttons",
+                        "content": "How do you say 5?",
+                        "source_url":"",
+                        "answer": "five",
+                        "options": {
+                            "one": "One", 
+                            "five": "Five", 
+                            "eight": "Eight"                        
+                        }
+                    },
+                    "3": {
+                        "type": "quiz",
+                        "presentation": "buttons",
+                        "answer": "one",
+                        "content": "How many head do you have?",
+                        "source_url":"",
+                        "options": {
+                            "one": "One", 
+                            "five": "Six", 
+                            "eight": "Three"                        
+                        }
+                    },
+                    "4": {
+                        "type": "text",
+                        "presentation": "video",
+                        "source_url":"",
+                        "content": "So here are the numbers we learn today: 1- one, 2 - two, 3 - three, 4 - four, 5 - five, 6 - six, 7 - seven, 8 - eight, 9 - nine, 10 - ten",
+                        "options": {},
+                        "answer": ""                        
+                    },    
+                    "5": {
+                        "type": "quiz",
+                        "presentation": "freetext",
+                        "answer": "one two three four five",
+                        "source_url":"",
+                        "content": "Let's write the numbers from 1 to 5 in English, separated by space!",
+                        "options": {
+                            "one": "One", 
+                            "five": "Six", 
+                            "eight": "Three"                        
+                        }
+                    }
+                }
+            },
+            "2" : {
+                "name": "Fruits & Vegetables",
+                "cards":{
+                    "1": {
+                        "type": "video",
+                        "presentation": "video",
+                        "source_url":"/courses/english_beginner/Fruits.mp4",
+                        "content": "",
+                        "options": {},
+                        "answer": ""                        
+                    }, 
+	                "2": {
+                        "type": "quiz",
+                        "presentation": "generic",
+                        "source_url":"/courses/english_beginner/quiz1.jpg",
+                        "content": "This is a ____?",
+                        "answer": "Broccoli",
+                        "options": {
+                            "orange": "Orange",
+                            "lemon": "Lemon",
+                            "broccoli": "Broccoli"
+                        }
+                    },
+                    "3": {
+                        "type": "quiz",
+                        "presentation": "generic",
+                        "source_url":"/courses/english_beginner/quiz2.jpg",
+                        "answer": "Potato",
+                        "content": "This is a ____?",
+                        "options": {
+                            "one": "Grape", 
+                            "five": "Potato", 
+                            "eight": "Cabbage"                        
+                        }
+                    }                
+                }
+            },
+            "3" : {
+                "name": "Body Parts",
+                "cards":{
+                    "1": {
+                        "type": "video",
+                        "presentation": "video",
+                        "source_url":"/courses/english_beginner/BodyParts.mp4",
+                        "content": "",
+                        "options": {},
+                        "answer": ""                        
+                    }, 
+	                "2": {
+                        "type": "quiz",
+                        "presentation": "text",
+                        "source_url":"",
+                        "content": "Rewrite this list in order, from top to bottom: shoulder head legs stomach.",
+                        "answer": "head shoulder stomach legs",
+                        "options": {}
+                    }                                   
+                }
+            }
+        }
+    },
+    "public_speaking":{
+        "name": "Public Speaking",
+        "thumbnail": "/courses/public_speaking/thumbnail.jpg",
+        "estimated": 300,
+        "skills": {
+            "1" : {
+                "key": "presentation",
+                "name": "Presentation"
+            }
+        },
+        "lessons": {            
+            "1": {
+                "name": "Numbers",
+                "cards":{
+                    "1": {
+                        "type": "video",
+                        "presentation": "video",
+                        "content": "",
+                        "source_url": "/courses/english_beginner/Numbers.mp4", 
+                        "options": {},
+                        "answer": ""                        
+                    }, 
+	                "2": {
+                        "type": "quiz",
+                        "presentation": "buttons",
+                        "content": "How do you say 5?",
+                        "source_url":"",
+                        "answer": "five",
+                        "options": {
+                            "one": "One", 
+                            "five": "Five", 
+                            "eight": "Eight"                        
+                        }
+                    },
+                    "3": {
+                        "type": "quiz",
+                        "presentation": "buttons",
+                        "answer": "one",
+                        "content": "How many head do you have?",
+                        "source_url":"",
+                        "options": {
+                            "one": "One", 
+                            "five": "Six", 
+                            "eight": "Three"                        
+                        }
+                    },
+                    "4": {
+                        "type": "text",
+                        "presentation": "video",
+                        "source_url":"",
+                        "content": "So here are the numbers we learn today: 1- one, 2 - two, 3 - three, 4 - four, 5 - five, 6 - six, 7 - seven, 8 - eight, 9 - nine, 10 - ten",
+                        "options": {},
+                        "answer": ""                        
+                    },    
+                    "5": {
+                        "type": "quiz",
+                        "presentation": "freetext",
+                        "answer": "one two three four five",
+                        "source_url":"",
+                        "content": "Let's write the numbers from 1 to 5 in English, separated by space!",
+                        "options": {
+                            "one": "One", 
+                            "five": "Six", 
+                            "eight": "Three"                        
+                        }
+                    }
+                }
+            },
+            "2" : {
+                "name": "Fruits & Vegetables",
+                "cards":{
+                    "1": {
+                        "type": "video",
+                        "presentation": "video",
+                        "source_url":"/courses/english_beginner/Fruits.mp4",
+                        "content": "",
+                        "options": {},
+                        "answer": ""                        
+                    }, 
+	                "2": {
+                        "type": "quiz",
+                        "presentation": "generic",
+                        "source_url":"/courses/english_beginner/quiz1.jpg",
+                        "content": "This is a ____?",
+                        "answer": "Broccoli",
+                        "options": {
+                            "orange": "Orange",
+                            "lemon": "Lemon",
+                            "broccoli": "Broccoli"
+                        }
+                    },
+                    "3": {
+                        "type": "quiz",
+                        "presentation": "generic",
+                        "source_url":"/courses/english_beginner/quiz2.jpg",
+                        "answer": "Potato",
+                        "content": "This is a ____?",
+                        "options": {
+                            "one": "Grape", 
+                            "five": "Potato", 
+                            "eight": "Cabbage"                        
+                        }
+                    }                
+                }
+            },
+            "3" : {
+                "name": "Body Parts",
+                "cards":{
+                    "1": {
+                        "type": "video",
+                        "presentation": "video",
+                        "source_url":"/courses/english_beginner/BodyParts.mp4",
+                        "content": "",
+                        "options": {},
+                        "answer": ""                        
+                    }, 
+	                "2": {
+                        "type": "quiz",
+                        "presentation": "text",
+                        "source_url":"",
+                        "content": "Rewrite this list in order, from top to bottom: shoulder head legs stomach.",
+                        "answer": "head shoulder stomach legs",
+                        "options": {}
+                    }                                   
+                }
+            }
+        }
+    }
+}

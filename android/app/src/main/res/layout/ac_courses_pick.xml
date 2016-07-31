@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivToogle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/icon_toogle" />
+
+    <com.careermate.CORE_LIBS.VIEWS.DefaultFontTextView
+        android:id="@+id/tvCouresText"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/text_height_default"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="Courses"
+        android:textSize="@dimen/text_size_big" />
+
+    <LinearLayout
+        android:id="@+id/linFocusSkills"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tvCouresText"
+        android:orientation="horizontal">
+
+        <com.careermate.CORE_LIBS.VIEWS.DefaultFontTextView
+            android:id="@+id/tvSkillFocus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical|left"
+            android:inputType="textShortMessage"
+            android:padding="3dp"
+            android:text="Focused Skills:\t English, Code, ..."
+            android:textSize="@dimen/text_size_default" />
+
+        <com.careermate.CORE_LIBS.VIEWS.DefaultFontButton
+            android:id="@+id/btnClear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@drawable/bg_button"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="Clear"
+            android:textColor="@color/caldroid_white"
+            android:textSize="@dimen/text_size_default" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linFilter"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/linFocusSkills">
+
+        <com.careermate.CORE_LIBS.VIEWS.DefaultFontButton
+            android:id="@+id/btnAvailable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button"
+            android:gravity="center"
+            android:text="Available"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_default" />
+
+        <com.careermate.CORE_LIBS.VIEWS.DefaultFontButton
+            android:id="@+id/btnRegisted"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_deselected"
+            android:gravity="center"
+            android:text="Registed"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_default" />
+
+        <com.careermate.CORE_LIBS.VIEWS.DefaultFontButton
+            android:id="@+id/btnFinish"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_deselected"
+            android:gravity="center"
+            android:text="Finish"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_default" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvListCourse"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/relBottom"
+        android:layout_below="@+id/linFilter"
+        android:padding="10dp" />
+
+    <RelativeLayout
+        android:id="@+id/relBottom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/relSkills">
+
+        <com.careermate.CORE_LIBS.VIEWS.DefaultFontButton
+            android:id="@+id/btnStartLearn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_button"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Learn Now"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_default" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

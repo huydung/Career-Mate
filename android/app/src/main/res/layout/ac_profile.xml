@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:id="@+id/relMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/ivToogle"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_toogle"/>
+        <RelativeLayout
+            android:id="@+id/relInfomation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.careermate.CORE_LIBS.VIEWS.DefaultFontTextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/text_height_default"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="Hoang Tu Anh"
+                android:textSize="@dimen/text_size_default" />
+
+            <ImageView
+                android:id="@+id/ivAvatar"
+                android:layout_width="@dimen/avata_size"
+                android:layout_height="@dimen/avata_size"
+                android:layout_below="@+id/tvName"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/avatar_default" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@+id/relInfomation"
+            android:id="@+id/relInterest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.careermate.CORE_LIBS.VIEWS.DefaultFontTextView
+                android:id="@+id/tvInterestfulCareer"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/text_height_default"
+                android:gravity="center_vertical|left"
+                android:paddingLeft="10dp"
+                android:padding="3dp"
+                android:text="Interestful Career:"
+                android:textSize="@dimen/text_size_default"/>
+            <android.support.v7.widget.RecyclerView
+                android:layout_below="@+id/tvInterestfulCareer"
+                android:id="@+id/rvInterestfulCareer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="horizontal" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@+id/relInterest"
+            android:id="@+id/relSkills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.careermate.CORE_LIBS.VIEWS.DefaultFontTextView
+                android:id="@+id/tvSkills"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/text_height_default"
+                android:gravity="center_vertical|left"
+                android:paddingLeft="10dp"
+                android:padding="3dp"
+                android:text="Skills:"
+                android:textSize="@dimen/text_size_default"/>
+            <android.support.v7.widget.RecyclerView
+                android:layout_below="@+id/tvSkills"
+                android:id="@+id/rvSkill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical" />
+            <com.careermate.CORE_LIBS.VIEWS.DefaultFontButton
+                android:layout_below="@+id/rvSkill"
+                android:id="@+id/btnFindCourses"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/bg_button"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:text="Find courses"
+                android:textSize="@dimen/text_size_default" />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
+

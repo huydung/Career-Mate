@@ -1,0 +1,116 @@
+{
+    "business" : {
+        "name": "Business",
+        "key": "business",
+        "icon": "/categories/business.jpg",
+        "skills": {
+            "1" : {
+                "key": "business",
+                "name": "Business"
+            },
+            "2" : {
+                "key": "english",
+                "name": "English"
+            }
+        }
+    },
+    "it" : {
+        "name": "IT/Software",
+        "key": "it",
+        "icon": "/categories/it.jpg",
+        "skills": {
+            "1" : {
+                "key": "business",
+                "name": "Business"
+            },
+            "2" : {
+                "key": "programming",
+                "name": "Programming"
+            },
+            "3" : {
+                "key": "research",
+                "name": "Research"
+            }
+        }
+    },
+    "edu" : {
+        "name": "Education",
+        "key": "edu",
+        "icon": "/categories/edu.jpg",
+        "skills": {
+            "1" : {
+                "key": "presentation",
+                "name": "Presentation"
+            },
+            "2" : {
+                "key": "people",
+                "name": "People"
+            },
+            "3" : {
+                "key": "research",
+                "name": "Research"
+            }
+        }
+    },
+    "food" : {
+        "name": "Restaurant",
+        "key": "food",
+        "icon": "/categories/food.jpg",
+        "skills": {
+            "1" : {
+                "key": "cook",
+                "name": "cook"
+            }
+        }
+    },
+    "politic" : {
+        "name": "Politician",
+        "key": "politic",
+        "icon": "/categories/politic.jpg",
+        "skills": {
+            "1" : {
+                "key": "presentation",
+                "name": "Presentation"
+            },
+            "2" : {
+                "key": "people",
+                "name": "People"
+            },
+            "3" : {
+                "key": "media",
+                "name": "Media"
+            }
+        }
+    },
+    "service" : {
+        "name": "Service",
+        "key": "service",
+        "icon": "/categories/service.jpg",
+        "skills": {
+            "1" : {
+                "key": "english",
+                "name": "English"
+            },
+            "2" : {
+                "key": "people",
+                "name": "People"
+            }
+        }
+    },
+    "sience" : {
+        "name": "Scientist",
+        "key": "sience",
+        "icon": "/categories/sience.jpg",
+        "skills": {
+            "1" : {
+                "key": "english",
+                "name": "English"
+            },
+            "2" : {
+                "key": "research",
+                "name": "Research"
+            }
+        }
+    }
+}
+

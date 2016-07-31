@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent">
+
+    <com.careermate.CORE_LIBS.VIEWS.DefaultFontTextView
+        android:id="@+id/tvLessonName"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_button_xanh_dam"
+        android:layout_height="@dimen/text_height_default"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="Learn"
+        android:textSize="@dimen/text_size_big" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvLessonName"
+        android:layout_above="@id/relBottom"
+        android:id="@+id/rvInterestfulCareer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal" />
+
+
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/relBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pbCourseComplete">
+
+        <com.careermate.CORE_LIBS.VIEWS.DefaultFontButton
+            android:id="@+id/tvSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/bg_button"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Submit for result"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_default" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

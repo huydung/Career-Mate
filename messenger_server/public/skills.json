@@ -1,0 +1,34 @@
+{
+    "english": {
+        "name": "English",
+        "icon": "skills/english.jpg"
+    },
+    "programming": {
+        "name": "Programming",
+        "icon": "skills/programming.jpg"
+    },
+    "business": {
+        "name": "Business",
+        "icon": "skills/business.jpg"
+    },
+    "presentation": {
+        "name": "Presentation",
+        "icon": "skills/presentation.jpg"
+    },
+    "people": {
+        "name": "People",
+        "icon": "skills/people.jpg"
+    },
+    "cook": {
+        "name": "Cook",
+        "icon": "skills/cook.jpg"
+    },
+    "media": {
+        "name": "Media",
+        "icon": "skills/media.jpg"
+    },
+    "research": {
+        "name": "Research",
+        "icon": "skills/research.jpg"
+    }
+}

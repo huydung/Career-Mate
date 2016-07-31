@@ -1,0 +1,77 @@
+{
+    "fbId" : "10153574016757735",
+    "messengerId" : "1051772638192446",
+    "username" : "Nguyễn Huy Dũng",
+    "careers" : {
+        "1" : {
+            "key": "business",
+            "name": "Business"
+        },
+        "2" : {
+            "key": "it",
+            "name": "IT/Software"
+        },
+        "3" : {
+            "key": "edu",
+            "name": "Education"
+        }
+    },
+    "skills" : {
+        "1" : {
+            "key": "business",
+            "name": "Business"
+        },
+        "2" : {
+            "key": "presentation",
+            "name": "Presentation"
+        },
+        "3" : {
+            "key": "edu",
+            "name": "Education"
+        },
+        "4" : {
+            "key": "people",
+            "name": "People"
+        },
+        "5" : {
+            "key": "research",
+            "name": "Research"
+        }
+    },
+    "courses": {
+        "programming_js": {
+            "key": "programming_js",
+            "name": "Javascript Programming",
+            "status": "Finished",
+            "next_lesson": "1",
+            "next_card": "1"
+        },
+        "english_beginner": {
+            "key": "english_beginner",
+            "name": "English for beginners",
+            "status": "Active",
+            "next_lesson": "1",
+            "next_card": "1"
+        },
+        "english_inter": {
+            "key": "english_inter",
+            "name": "Intermediate English",
+            "status": "Registered",
+            "next_lesson": "1",
+            "next_card": "1"
+        }
+    },
+    "chat_records": {
+        /*
+        "1": {            
+            "course": "",
+            "lesson": "",
+            "card": "",
+            "sent": "",
+            "answered": "",
+            "feedback": "",
+            "feedback_sent": ""
+        }
+        */
+    }
+}
